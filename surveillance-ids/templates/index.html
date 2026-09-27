@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Surveillance IDS - 75% Accuracy</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <script src="https://cdn.socket.io/4.5.0/socket.io.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🔒 Surveillance Intrusion Detection</h1>
+            <div class="status">
+                <span id="status" class="online">● Online</span>
+                <span id="alert-count">Alerts: 0</span>
+                <span id="accuracy-display">Accuracy: 0%</span>
+                <span id="threshold-display">Threshold: 45%</span>
+            </div>
+        </header>
+
+        <div class="main-grid">
+            <div class="video-container">
+                <video id="video" autoplay playsinline></video>
+                <div id="overlay" style="display:none;">
+                    <div class="alert-banner">🚨 INTRUSION DETECTED</div>
+                    <div class="confidence-bar">
+                        <div id="confidence-fill" style="width:0%"></div>
+                    </div>
+                    <div class="details" id="alert-details"></div>
+                </div>
+            </div>
+
+            <div class="control-panel">
+                <button id="toggleCamera" class="btn btn-primary">▶ Start Camera</button>
+                <button id="toggleAlert" class="btn btn-danger">🔇 Mute</button>
+                <button id="feedbackCorrect" class="btn btn-success" style="display:none;">✅ Correct</button>
+                <button id="feedbackWrong" class="btn btn-danger" style="display:none;">❌ Wrong</button>
+                
+                <div class="settings">
+                    <label>Threshold: <span id="threshold-value">45%</span></label>
+                    <input type="range" id="threshold" min="30" max="70" value="45">
+                </div>
+
+                <div class="stats">
+                    <h4>📊 Statistics</h4>
+                    <div>Frames: <span id="fps">0</span></div>
+                    <div>Detections: <span id="detections">0</span></div>
+                    <div>Accuracy: <span id="accuracy-stat">0%</span></div>
+                    <div>Status: <span id="accuracy-status">Starting...</span></div>
+                    <div>Latency: <span id="latency">0ms</span></div>
+                </div>
+            </div>
+
+            <div class="log-panel">
+                <h3>📋 Detection Log</h3>
+                <div id="log-container">
+                    <p class="log-entry system">System ready. Starting with 75% target...</p>
+                    <p class="log-entry system">✅ Motion Detection: Active</p>
+                    <p class="log-entry system">✅ Behavior Analysis: Active</p>
+                    <p class="log-entry system">✅ Object Detection: Active</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>

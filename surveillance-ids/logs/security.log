@@ -1,0 +1,40 @@
+2026-09-03 02:08:31,528 - INFO -  * Restarting with stat
+2026-09-03 02:08:37,973 - WARNING -  * Debugger is active!
+2026-09-03 02:08:38,011 - INFO -  * Debugger PIN: 764-703-072
+2026-09-03 02:18:00,310 - INFO -  * Detected change in 'C:\\Users\\khuma\\Videos\\Surveillance-ids\\config.py', reloading
+2026-09-03 02:18:02,244 - INFO -  * Restarting with stat
+2026-09-03 02:18:25,784 - WARNING -  * Debugger is active!
+2026-09-03 02:18:26,193 - INFO -  * Debugger PIN: 764-703-072
+2026-09-03 02:19:19,524 - INFO -  * Detected change in 'C:\\Users\\khuma\\Videos\\Surveillance-ids\\app.py', reloading
+2026-09-03 02:19:27,935 - INFO -  * Restarting with stat
+2026-09-27 11:09:55,919 - INFO -  * Restarting with stat
+2026-09-27 11:10:00,206 - WARNING -  * Debugger is active!
+2026-09-27 11:10:00,244 - INFO -  * Debugger PIN: 764-703-072
+2026-09-27 11:11:22,673 - WARNING - ALERT: Intrusion detected with 64% confidence
+2026-09-27 11:11:22,677 - INFO -   Details: {'motion': 0.95, 'face': 0.0, 'behavior': 0.0, 'object': 0.63, 'boost': 'multiple_detections'}
+2026-09-27 11:11:24,701 - WARNING - ALERT: Intrusion detected with 70% confidence
+2026-09-27 11:11:24,701 - INFO -   Details: {'motion': 0.95, 'face': 0.0, 'behavior': 0.0, 'object': 0.63, 'boost': 'consecutive'}
+2026-09-27 11:11:26,949 - WARNING - ALERT: Intrusion detected with 64% confidence
+2026-09-27 11:11:26,950 - INFO -   Details: {'motion': 0.95, 'face': 0.0, 'behavior': 0.0, 'object': 0.63, 'boost': 'multiple_detections'}
+2026-09-27 11:11:34,024 - WARNING - ALERT: Intrusion detected with 64% confidence
+2026-09-27 11:11:34,024 - INFO -   Details: {'motion': 0.95, 'face': 0.0, 'behavior': 0.0, 'object': 0.63, 'boost': 'multiple_detections'}
+2026-09-27 11:11:36,189 - WARNING - ALERT: Intrusion detected with 64% confidence
+2026-09-27 11:11:36,189 - INFO -   Details: {'motion': 0.95, 'face': 0.0, 'behavior': 0.0, 'object': 0.63, 'boost': 'multiple_detections'}
+2026-09-27 11:11:49,006 - WARNING - ALERT: Intrusion detected with 67% confidence
+2026-09-27 11:11:49,006 - INFO -   Details: {'motion': 0.95, 'face': 0.0, 'behavior': 0.0, 'object': 0.7100000000000001, 'boost': 'multiple_detections'}
+2026-09-27 11:11:51,136 - WARNING - ALERT: Intrusion detected with 70% confidence
+2026-09-27 11:11:51,136 - INFO -   Details: {'motion': 0.95, 'face': 0.0, 'behavior': 0.0, 'object': 0.63, 'boost': 'consecutive'}
+2026-09-27 11:11:57,976 - WARNING - ALERT: Intrusion detected with 64% confidence
+2026-09-27 11:11:57,977 - INFO -   Details: {'motion': 0.95, 'face': 0.0, 'behavior': 0.0, 'object': 0.63, 'boost': 'multiple_detections'}
+2026-09-27 11:12:08,368 - WARNING - ALERT: Intrusion detected with 64% confidence
+2026-09-27 11:12:08,369 - INFO -   Details: {'motion': 0.95, 'face': 0.0, 'behavior': 0.0, 'object': 0.63, 'boost': 'multiple_detections'}
+2026-09-27 11:12:28,113 - WARNING - ALERT: Intrusion detected with 64% confidence
+2026-09-27 11:12:28,113 - INFO -   Details: {'motion': 0.95, 'face': 0.0, 'behavior': 0.0, 'object': 0.63, 'boost': 'multiple_detections'}
+2026-09-27 11:12:34,591 - WARNING - ALERT: Intrusion detected with 64% confidence
+2026-09-27 11:12:34,592 - INFO -   Details: {'motion': 0.95, 'face': 0.0, 'behavior': 0.0, 'object': 0.63, 'boost': 'multiple_detections'}
+2026-09-27 11:12:36,744 - WARNING - ALERT: Intrusion detected with 64% confidence
+2026-09-27 11:12:36,745 - INFO -   Details: {'motion': 0.95, 'face': 0.0, 'behavior': 0.0, 'object': 0.63, 'boost': 'multiple_detections'}
+2026-09-27 11:12:41,048 - WARNING - ALERT: Intrusion detected with 64% confidence
+2026-09-27 11:12:41,049 - INFO -   Details: {'motion': 0.95, 'face': 0.0, 'behavior': 0.0, 'object': 0.63, 'boost': 'multiple_detections'}
+2026-09-27 11:12:43,979 - WARNING - ALERT: Intrusion detected with 54% confidence
+2026-09-27 11:12:43,980 - INFO -   Details: {'motion': 0.95, 'face': 0.0, 'behavior': 0.0, 'object': 0.38400000000000006, 'boost': 'multiple_detections'}
